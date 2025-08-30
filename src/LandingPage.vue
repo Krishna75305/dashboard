@@ -2,7 +2,7 @@
   <div
     class="min-h-screen text-white overflow-hidden"
     style="
-      background: url('@/assets/Mask Group 4.svg') no-repeat center center/cover;
+      background: url('/assets/lp.svg') no-repeat center center/cover;
     "
   >
     <!-- Header / Navbar -->
@@ -517,7 +517,7 @@
       <!-- Footer Section with Blue Base Image -->
       <footer
         class="relative text-white w-[1500px] h-[800px] px-6 lg:px-20 py-12 bg-cover bg-center -mt-[580px]"
-        :style="{ backgroundImage: 'url(@/assets/10.svg)' }"
+        :style="{ backgroundImage: 'url(./assets/10.svg)' }"
       >
         <div
           class="relative pt-80 mt-60 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"
