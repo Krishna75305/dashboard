@@ -8,7 +8,7 @@
         class=" lg:flex  bg-center transform -translate-x-[250px]  " 
         >
         <img
-            src="/Assets/img1.svg"
+            src="@/assets/img1.svg"
             alt="About Us Illustration"
             class="contain w-[2500px]  h-[800px] -mt-44 "
           />

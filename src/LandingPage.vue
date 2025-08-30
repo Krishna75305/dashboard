@@ -2,7 +2,7 @@
   <div
     class="min-h-screen text-white overflow-hidden"
     style="
-      background: url('./Assets/Mask Group 4.svg') no-repeat center center/cover;
+      background: url('@/assets/Mask Group 4.svg') no-repeat center center/cover;
     "
   >
     <!-- Header / Navbar -->
@@ -147,7 +147,7 @@
       <!-- About Us Illustration (Left Half) -->
       <div class="relative transform -translate-x-0 lg:-translate-x-[400px] mb-6 lg:mb-0">
         <img
-          src="/Assets/img1.svg"
+          src="@/assets/img1.svg"
           alt="About Us Illustration"
           class="w-72 sm:w-96 md:w-[600px] lg:w-[1000px] max-w-none h-auto mx-auto"
         />
@@ -162,7 +162,7 @@
           class="flex items-center justify-center lg:justify-start mb-4 "
         >
           <img
-            src="/Assets/triangle.svg"
+            src="@/assets/triangle.svg"
             alt="triangle"
             class="w-6 sm:w-8 h-6 sm:h-8"
           />
@@ -200,12 +200,12 @@
 
     <!-- Decorative Shapes -->
     <img
-      src="/Assets/triangles.svg"
+      src="@/assets/triangles.svg"
       alt="triangle"
       class="absolute top-6 right-4 sm:top-10 sm:-right-10 w-24 sm:w-40 lg:w-80"
     />
     <img
-      src="/Assets/dots.svg"
+      src="@/assets/dots.svg"
       alt="dots"
       class="absolute bottom-4 right-4 sm:bottom-10 sm:right-10 lg:translate-x-[150px] w-32 sm:w-48 lg:w-80"
     />
@@ -218,7 +218,7 @@
       <!-- Left Section -->
       <div>
         <img
-          src="/Assets/triangle.svg"
+          src="@/assets/triangle.svg"
           alt="triangle"
           class="absolute w-1/8 h-6"
         />
@@ -267,7 +267,7 @@
         <div class="relative z-10 bg-white shadow-xl rounded-2xl p-8 max-w-md">
           <div class="flex items-center gap-3 mb-5">
             <img
-              src="/Assets/ux.svg"
+              src="@/assets/ux.svg"
               alt="UI/UX"
               class="w-12 h-12 object-contain"
             />
@@ -283,7 +283,7 @@
           <ul class="space-y-3">
             <li class="flex items-start gap-2">
               <img
-                src="/Assets/Group 35604.svg"
+                src="@/assets/Group 35604.svg"
                 alt="bullet"
                 class="w-4 h-4 mt-1"
               />
@@ -293,7 +293,7 @@
             </li>
             <li class="flex items-start gap-2">
               <img
-                src="/Assets/Group 35604.svg"
+                src="@/assets/Group 35604.svg"
                 alt="bullet"
                 class="w-4 h-4 mt-1"
               />
@@ -301,7 +301,7 @@
             </li>
             <li class="flex items-start gap-2">
               <img
-                src="/Assets/Group 35604.svg"
+                src="@/assets/Group 35604.svg"
                 alt="bullet"
                 class="w-4 h-4 mt-1"
               />
@@ -311,7 +311,7 @@
             </li>
             <li class="flex items-start gap-2">
               <img
-                src="/Assets/Group 35604.svg"
+                src="@/assets/Group 35604.svg"
                 alt="bullet"
                 class="w-4 h-4 mt-1"
               />
@@ -328,7 +328,7 @@
   <section class="bg-gray-50 py-40 pb-96  ">
     <!-- Decorative triangle -->
     <img
-      src="/Assets/11.triangles.svg"
+      src="@/assets/11.triangles.svg"
       alt="triangle"
       class="relative w-40 sm:w-60 md:w-80 h-auto transform -translate-y-24 md:-translate-y-[250px] mx-auto md:mx-0"
     />
@@ -367,37 +367,37 @@
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/react.svg" alt="React" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/react.svg" alt="React" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-[#0E77FF] shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/AWS1.svg" alt="AWS1" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/AWS1.svg" alt="AWS1" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/cloud.svg" alt="cloud" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/cloud.svg" alt="cloud" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/redux.svg" alt="redux" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/redux.svg" alt="redux" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/js.svg" alt="js" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/js.svg" alt="js" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/sf.svg" alt="sf" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/sf.svg" alt="sf" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/aws.svg" alt="aws" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/aws.svg" alt="aws" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
       </div>
 
@@ -408,32 +408,32 @@
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/sf.svg" alt="sf" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/sf.svg" alt="sf" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/redux.svg" alt="redux" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/redux.svg" alt="redux" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/node.svg" alt="node" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/node.svg" alt="node" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/firebase.svg" alt="firebase" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/firebase.svg" alt="firebase" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/react.svg" alt="react" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/react.svg" alt="react" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
         <div
           class="flex items-center justify-center p-4 sm:p-6 border border-blue-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
         >
-          <img src="/Assets/tech/js.svg" alt="JavaScript" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
+          <img src="@/assets/tech/js.svg" alt="JavaScript" class="h-10 sm:h-12 w-10 sm:w-12 object-contain" />
         </div>
       </div>
     </div>
@@ -449,12 +449,12 @@
         <!-- Left Illustration -->
         <div class="relative flex-1 flex justify-center mb-10 lg:mb-0">
           <img
-            src="/Assets/12.svg"
+            src="@/assets/12.svg"
             alt="triangle"
             class="absolute -top-60 left-44 w-28"
           />
           <img
-            src="/Assets/13.svg"
+            src="@/assets/13.svg"
             alt="Support Girl"
             class="relative mr-10 -mb-44 "
           />
@@ -517,7 +517,7 @@
       <!-- Footer Section with Blue Base Image -->
       <footer
         class="relative text-white w-[1500px] h-[800px] px-6 lg:px-20 py-12 bg-cover bg-center -mt-[580px]"
-        :style="{ backgroundImage: 'url(/Assets/10.svg)' }"
+        :style="{ backgroundImage: 'url(@/assets/10.svg)' }"
       >
         <div
           class="relative pt-80 mt-60 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"
@@ -564,7 +564,7 @@
 
             <!-- Address -->
             <div class="flex items-start space-x-3 mb-2 -ml-8">
-              <img src="/Assets/16.svg" alt="location" class="w-5 h-5" />
+              <img src="@/assets/16.svg" alt="location" class="w-5 h-5" />
 
               <p class="text-sm">
                 Al Dummyroad 124/23 floor 123<br />
@@ -574,13 +574,13 @@
 
             <!-- Phone -->
             <div class="flex items-center space-x-3 mb-2 -ml-8">
-              <img src="/Assets/15.svg" alt="phone" class="w-5 h-5" />
+              <img src="@/assets/15.svg" alt="phone" class="w-5 h-5" />
               <p class="text-sm">00 1800 245 453</p>
             </div>
 
             <!-- Email -->
             <div class="flex items-center space-x-3 -ml-8">
-              <img src="/Assets/14.svg" alt="email" class="w-5 h-5 mt-1" />
+              <img src="@/assets/14.svg" alt="email" class="w-5 h-5 mt-1" />
               <p class="text-sm">hello@inky.com</p>
             </div>
           </div>

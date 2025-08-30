@@ -4,25 +4,25 @@
     <aside class="hidden md:flex w-20 lg:w-64 bg-white shadow-md flex-col justify-between">
       <nav class="mt-6 space-y-6">
         <a href="#" class="flex items-center p-4 text-blue-500 font-semibold">
-          <img src="/assets/icons/dashboard.svg" class="w-6 h-6 mr-2" />
+          <img src="@/assets/icons/dashboard.svg" class="w-6 h-6 mr-2" />
           <span class="hidden lg:inline">Dashboard</span>
         </a>
         <a href="#" class="flex items-center p-4 text-gray-600 hover:text-blue-500">
-          <img src="/assets/icons/analytics.svg" class="w-6 h-6 mr-2" />
+          <img src="@/assets/icons/analytics.svg" class="w-6 h-6 mr-2" />
           <span class="hidden lg:inline">Analytics</span>
         </a>
         <a href="#" class="flex items-center p-4 text-gray-600 hover:text-blue-500">
-          <img src="/assets/icons/trading.svg" class="w-6 h-6 mr-2" />
+          <img src="@/assets/icons/trading.svg" class="w-6 h-6 mr-2" />
           <span class="hidden lg:inline">Trading</span>
         </a>
         <a href="#" class="flex items-center p-4 text-gray-600 hover:text-blue-500">
-          <img src="/assets/icons/notifications.svg" class="w-6 h-6 mr-2" />
+          <img src="@/assets/icons/notifications.svg" class="w-6 h-6 mr-2" />
           <span class="hidden lg:inline">Notifications</span>
         </a>
       </nav>
       <div class="p-6">
         <a href="#" class="flex items-center text-gray-600 hover:text-red-500" @click="handleLogout">
-          <img src="/assets/icons/logout.svg" class="w-6 h-6 mr-2" />
+          <img src="@/assets/icons/logout.svg" class="w-6 h-6 mr-2" />
           <span class="hidden lg:inline">Logout</span>
         </a>
       </div>
@@ -38,7 +38,7 @@
         </div>
         <div class="flex items-center space-x-4">
           <button class="bg-blue-500 text-white px-3 sm:px-4 py-2 rounded text-sm sm:text-base">+ Add Unit</button>
-          <img src="/assets/nouser.png" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full border" />
+          <img src="@/assets/nouser.png" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full border" />
         </div>
       </div>
 
@@ -59,10 +59,10 @@
         <div class="bg-white p-6 rounded shadow">
           <h3 class="text-gray-500">Currencies</h3>
           <ul class="flex flex-wrap mt-2 gap-2">
-            <li><img src="/Assets/dollar.svg" alt="USD" class="w-6 h-6 rounded-full" /></li>
-            <li><img src="/Assets/euro.svg" alt="EUR" class="w-6 h-6 rounded-full" /></li>
-            <li><img src="/Assets/bitcoin.svg" alt="BTC" class="w-6 h-6 rounded-full" /></li>
-            <li><img src="/Assets/yen.svg" alt="JPY" class="w-6 h-6 rounded-full" /></li>
+            <li><img src="@/assets/dollar.svg" alt="USD" class="w-6 h-6 rounded-full" /></li>
+            <li><img src="@/assets/euro.svg" alt="EUR" class="w-6 h-6 rounded-full" /></li>
+            <li><img src="@/assets/bitcoin.svg" alt="BTC" class="w-6 h-6 rounded-full" /></li>
+            <li><img src="@/assets/yen.svg" alt="JPY" class="w-6 h-6 rounded-full" /></li>
           </ul>
         </div>
       </div>
@@ -128,16 +128,16 @@ const countryStats = [
 ]
 
 const teamMembers = [
-  { name: "Andrew Johnstons", role: "Top Trader", image: "/assets/nouser.png" },
-  { name: "Anna Atkinsons", role: "Manager", image: "/assets/nouser.png" },
-  { name: "Mark Atkinsons", role: "Manager", image: "/assets/nouser.png" },
-  { name: "Johanna Tairons", role: "Manager", image: "/assets/nouser.png" },
+  { name: "Andrew Johnstons", role: "Top Trader", image: "@/assets/nouser.png" },
+  { name: "Anna Atkinsons", role: "Manager", image: "@/assets/nouser.png" },
+  { name: "Mark Atkinsons", role: "Manager", image: "@/assets/nouser.png" },
+  { name: "Johanna Tairons", role: "Manager", image: "@/assets/nouser.png" },
 ]
 
 const comparisons = [
-  { country: "United States", percent: 93, flag: "/assets/flags/usa.svg" },
-  { country: "Italy", percent: 73, flag: "/assets/flags/italy.svg" },
-  { country: "Spain", percent: 13, flag: "/assets/flags/spain.svg" },
+  { country: "United States", percent: 93, flag: "@/assets/flags/usa.svg" },
+  { country: "Italy", percent: 73, flag: "@/assets/flags/italy.svg" },
+  { country: "Spain", percent: 13, flag: "@/assets/flags/spain.svg" },
 ]
 
 import { useRouter } from "vue-router"
