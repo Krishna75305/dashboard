@@ -4,7 +4,7 @@
     <aside class="hidden md:flex w-20 lg:w-64 bg-white shadow-md flex-col justify-between">
       <nav class="mt-6 space-y-6">
         <a href="#" class="flex items-center p-4 text-blue-500 font-semibold">
-          <img src="./assets/icons/db.svg" class="w-6 h-6 mr-2" />
+          <img src="@/assets/icons/db.svg" class="w-6 h-6 mr-2" />
           <span class="hidden lg:inline">Dashboard</span>
         </a>
         <a href="#" class="flex items-center p-4 text-gray-600 hover:text-blue-500">
@@ -38,7 +38,7 @@
         </div>
         <div class="flex items-center space-x-4">
           <button class="bg-blue-500 text-white px-3 sm:px-4 py-2 rounded text-sm sm:text-base">+ Add Unit</button>
-          <img src="./assets/nouser.png" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full border" />
+          <img src="@/assets/nouser.png" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full border" />
         </div>
       </div>
 
@@ -116,8 +116,16 @@
   </div>
 </template>
 
-
 <script setup>
+import { useRouter } from "vue-router"
+
+const router = useRouter()
+
+function handleLogout() {
+  localStorage.removeItem("token")
+  router.push("/")
+}
+
 const countryStats = [
   { country: "Italy", value: 475 },
   { country: "United States", value: 431 },
@@ -128,7 +136,7 @@ const countryStats = [
 ]
 
 const teamMembers = [
-  { name: "Andrew Johnstons", role: "Top Trader", image: "./Assets/nouser.png" },
+  { name: "Andrew Johnstons", role: "Top Trader", image: "./assets/nouser.png" },
   { name: "Anna Atkinsons", role: "Manager", image: "./assets/nouser.png" },
   { name: "Mark Atkinsons", role: "Manager", image: "./assets/nouser.png" },
   { name: "Johanna Tairons", role: "Manager", image: "./assets/nouser.png" },
@@ -139,16 +147,4 @@ const comparisons = [
   { country: "Italy", percent: 73, flag: "./assets/flags/italy.svg" },
   { country: "Spain", percent: 13, flag: "./assets/flags/spain.svg" },
 ]
-
-import { useRouter } from "vue-router"
-
-const router = useRouter()
-
-function handleLogout() {
-  // 🟢 Clear auth token / user state if you have one
-  localStorage.removeItem("token")
-
-  // 🔄 Redirect to LandingPage ("/")
-  router.push("/")
-}
 </script>
